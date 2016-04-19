@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4DEF0D891CC0063600666437 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF0D881CC0063600666437 /* main.cpp */; };
+		4DEF0D911CC0065200666437 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF0D8F1CC0065200666437 /* Ship.cpp */; };
+		4DEF0D941CC0066100666437 /* Shuttle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF0D921CC0066100666437 /* Shuttle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		4DEF0D851CC0063600666437 /* Uprajnenie4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Uprajnenie4; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEF0D881CC0063600666437 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DEF0D8F1CC0065200666437 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		4DEF0D901CC0065200666437 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		4DEF0D921CC0066100666437 /* Shuttle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Shuttle.cpp; sourceTree = "<group>"; };
+		4DEF0D931CC0066100666437 /* Shuttle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shuttle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4DEF0D881CC0063600666437 /* main.cpp */,
+				4DEF0D921CC0066100666437 /* Shuttle.cpp */,
+				4DEF0D931CC0066100666437 /* Shuttle.h */,
+				4DEF0D8F1CC0065200666437 /* Ship.cpp */,
+				4DEF0D901CC0065200666437 /* Ship.h */,
 			);
 			path = Uprajnenie4;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEF0D941CC0066100666437 /* Shuttle.cpp in Sources */,
 				4DEF0D891CC0063600666437 /* main.cpp in Sources */,
+				4DEF0D911CC0065200666437 /* Ship.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

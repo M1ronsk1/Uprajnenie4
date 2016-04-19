@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include "Shuttle.h"
+#include "Ship.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    
+    Ship* sh= new Shuttle(5.3,6.7);
+    Shuttle* sh1= new Shuttle(5.7, 9.9);
+    Shuttle* sh2 = new Shuttle(*sh1);
+    sh->area();
+     cout<<endl;
+    sh1->area();
+    cout<<endl;
+    sh2->area();
+    cout<<endl;
     return 0;
+    
 }
